@@ -53,6 +53,8 @@ export default function HomePage() {
             <Image src="/logos/n8n.svg" alt="n8n" width={80} height={32} className="h-6 md:h-7 w-auto" />
             <Image src="/logos/twilio.svg" alt="Twilio" width={120} height={32} className="h-6 md:h-7 w-auto" />
             <Image src="/logos/openai.svg" alt="OpenAI" width={130} height={32} className="h-6 md:h-7 w-auto" />
+            <Image src="/logos/stripe.svg" alt="Stripe" width={110} height={32} className="h-6 md:h-7 w-auto" />
+            <Image src="/logos/vercel.svg" alt="Vercel" width={120} height={32} className="h-6 md:h-7 w-auto" />
           </div>
         </div>
       </section>
