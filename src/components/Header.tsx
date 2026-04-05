@@ -46,14 +46,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-4">
-          <a
-            href="https://keystoneaistudio.com"
-            className="hidden sm:block bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-full text-xs font-label uppercase tracking-wider font-bold shadow-sm hover:opacity-90 transition-opacity"
-          >
-            Book a Demo
-          </a>
-
+        <div className="flex items-center">
           {/* Mobile menu button */}
           <button
             className="lg:hidden p-2 text-on-surface"
@@ -103,12 +96,6 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <a
-            href="https://keystoneaistudio.com"
-            className="block sm:hidden mt-4 text-center bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-3 rounded-full text-xs font-label uppercase tracking-wider font-bold"
-          >
-            Book a Demo
-          </a>
         </nav>
       )}
     </header>
