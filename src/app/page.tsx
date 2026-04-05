@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomePage() {
   return (
     <>
@@ -46,11 +48,11 @@ export default function HomePage() {
           <p className="text-center text-xs font-label uppercase tracking-[0.3em] text-secondary/60 mb-10">
             Built With Trusted Technology
           </p>
-          <div className="flex flex-wrap justify-center gap-12 md:gap-24 opacity-40 grayscale">
-            <span className="text-xl font-bold font-body">Supabase</span>
-            <span className="text-xl font-bold font-body">n8n</span>
-            <span className="text-xl font-bold font-body">Twilio</span>
-            <span className="text-xl font-bold font-body">OpenAI</span>
+          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-40">
+            <Image src="/logos/supabase.svg" alt="Supabase" width={140} height={28} className="h-6 md:h-7 w-auto" />
+            <Image src="/logos/n8n.svg" alt="n8n" width={80} height={32} className="h-6 md:h-7 w-auto" />
+            <Image src="/logos/twilio.svg" alt="Twilio" width={120} height={32} className="h-6 md:h-7 w-auto" />
+            <Image src="/logos/openai.svg" alt="OpenAI" width={130} height={32} className="h-6 md:h-7 w-auto" />
           </div>
         </div>
       </section>
