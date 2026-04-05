@@ -192,6 +192,58 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Sketch to System */}
+      <section className="py-24 md:py-32 bg-surface">
+        <div className="max-w-7xl mx-auto px-6 md:px-8">
+          <div className="max-w-2xl mb-16">
+            <span className="font-label text-[10px] uppercase tracking-[0.2em] text-primary font-semibold mb-4 block">
+              From Idea to Implementation
+            </span>
+            <h2 className="font-headline text-4xl md:text-5xl text-on-surface mb-6">
+              From Sketch to System
+            </h2>
+            <p className="text-secondary text-lg leading-relaxed">
+              We take rough ideas &mdash; even hand-drawn sketches &mdash; and
+              turn them into reliable, production-ready systems. This is the
+              same workflow we use to transform early concepts into practical
+              automation for real businesses.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            <div>
+              <div className="bg-surface-container-low rounded-xl overflow-hidden">
+                <Image
+                  src="/sketch-keystone-bot.jpeg"
+                  alt="Original hand-drawn concept sketch of the Keystone Bot"
+                  width={800}
+                  height={1000}
+                  className="w-full h-auto"
+                />
+              </div>
+              <p className="mt-4 text-secondary font-label text-xs uppercase tracking-wider">
+                Original concept sketch
+              </p>
+            </div>
+
+            <div>
+              <div className="bg-surface-container-low rounded-xl overflow-hidden">
+                <Image
+                  src="/keystone-bot.png"
+                  alt="Production-ready AI render of the Keystone Bot in four poses"
+                  width={800}
+                  height={1200}
+                  className="w-full h-auto"
+                />
+              </div>
+              <p className="mt-4 text-secondary font-label text-xs uppercase tracking-wider">
+                Production-ready AI render
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
