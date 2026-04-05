@@ -19,12 +19,6 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 items-center">
               <a
-                href="https://keystoneaistudio.com"
-                className="w-full sm:w-auto text-center bg-gradient-to-br from-primary to-primary-container text-on-primary px-10 py-5 rounded-full text-sm font-label uppercase tracking-widest font-bold shadow-lg shadow-primary/10 hover:scale-[1.02] transition-transform"
-              >
-                Book a Demo
-              </a>
-              <a
                 href="/contact"
                 className="w-full sm:w-auto text-center px-10 py-5 rounded-full text-sm font-label uppercase tracking-widest font-bold text-primary border border-primary/20 hover:bg-surface-container-low transition-colors"
               >

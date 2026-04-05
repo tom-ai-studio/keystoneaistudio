@@ -7,12 +7,6 @@ import { useState } from "react";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/contact", label: "Contact" },
-  { href: "/sms-consent", label: "SMS Consent" },
-  { href: "/privacy-policy", label: "Privacy Policy" },
-  { href: "/terms-of-service", label: "Terms of Service" },
-  { href: "/statement-of-work", label: "Statement of Work" },
-  { href: "/master-service-agreement", label: "Master Service Agreement" },
-  { href: "/trading-disclaimer", label: "Trading Disclaimer" },
 ];
 
 export default function Header() {
