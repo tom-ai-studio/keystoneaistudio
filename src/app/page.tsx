@@ -73,26 +73,24 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
             {/* Custom Automation */}
-            <div className="md:col-span-8 group bg-surface-container-lowest p-10 rounded-xl relative overflow-hidden flex flex-col justify-between min-h-[400px]">
-              <div className="relative z-10">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-8">
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <h3 className="font-headline text-3xl mb-4">Custom Automation</h3>
-                <p className="text-secondary max-w-md mb-8">
-                  End-to-end workflow synchronization that bridges your favorite tools into a single, cohesive engine.
-                </p>
-                <ul className="space-y-3 text-sm font-label uppercase tracking-wider text-secondary">
-                  <li className="flex items-center gap-2">
-                    <span className="w-1 h-1 rounded-full bg-primary"></span> CRM &amp; Data Sync
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-1 h-1 rounded-full bg-primary"></span> Automated Reporting
-                  </li>
-                </ul>
+            <div className="md:col-span-4 group bg-surface-container-lowest p-10 rounded-xl flex flex-col">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-8">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
               </div>
+              <h3 className="font-headline text-3xl mb-4">Custom Automation</h3>
+              <p className="text-secondary mb-8">
+                End-to-end workflow synchronization that bridges your favorite tools into a single, cohesive engine.
+              </p>
+              <ul className="mt-auto space-y-3 text-sm font-label uppercase tracking-wider text-secondary">
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 rounded-full bg-primary"></span> CRM &amp; Data Sync
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 rounded-full bg-primary"></span> Automated Reporting
+                </li>
+              </ul>
             </div>
 
             {/* AI Receptionist */}
@@ -109,6 +107,30 @@ export default function HomePage() {
               <div className="mt-auto pt-6 border-t border-outline-variant/20 italic font-headline text-primary">
                 &ldquo;Reduced response time from 4 hours to 4 seconds.&rdquo;
               </div>
+            </div>
+
+            {/* Business Workflow Automation */}
+            <div className="md:col-span-4 bg-surface-container-lowest p-10 rounded-xl flex flex-col">
+              <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-8">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              </div>
+              <h3 className="font-headline text-3xl mb-4">Business Workflow Automation</h3>
+              <p className="text-secondary mb-8">
+                Automate repetitive processes across your operations &mdash; from scheduling and notifications to reporting and system integrations.
+              </p>
+              <ul className="mt-auto space-y-3 text-sm font-label uppercase tracking-wider text-secondary">
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 rounded-full bg-primary"></span> Scheduling and reminders
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 rounded-full bg-primary"></span> Customer communication workflows
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1 h-1 rounded-full bg-primary"></span> Payment and billing processes
+                </li>
+              </ul>
             </div>
 
             {/* AI Business Tools */}
