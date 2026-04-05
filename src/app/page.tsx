@@ -118,8 +118,8 @@ export default function HomePage() {
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 p-4 rounded-lg backdrop-blur-sm">
-                    <span className="text-xs font-label uppercase tracking-widest block mb-2 opacity-60">Success Rate</span>
-                    <span className="text-2xl font-headline">99.8%</span>
+                    <span className="text-xs font-label uppercase tracking-widest block mb-2 opacity-60">Designed For</span>
+                    <span className="text-2xl font-headline">Reliability</span>
                   </div>
                   <div className="bg-white/10 p-4 rounded-lg backdrop-blur-sm">
                     <span className="text-xs font-label uppercase tracking-widest block mb-2 opacity-60">Hours Saved</span>
