@@ -166,27 +166,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-24 md:py-40 bg-surface">
-        <div className="max-w-5xl mx-auto px-6 md:px-8 text-center">
-          <div className="p-16 md:p-24 bg-surface-container-lowest rounded-3xl relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent"></div>
-            <h2 className="font-headline text-5xl md:text-6xl mb-10 relative z-10">
-              Ready to automate your business?
-            </h2>
-            <a
-              href="https://keystoneaistudio.com"
-              className="inline-block bg-gradient-to-br from-primary to-primary-container text-on-primary px-12 py-6 rounded-full text-sm font-label uppercase tracking-widest font-bold shadow-xl shadow-primary/20 hover:scale-105 transition-transform relative z-10"
-            >
-              Book a Demo
-            </a>
-            <p className="mt-8 text-secondary font-label uppercase text-[10px] tracking-[0.2em] relative z-10">
-              Join 50+ businesses scaling with Keystone
-            </p>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
