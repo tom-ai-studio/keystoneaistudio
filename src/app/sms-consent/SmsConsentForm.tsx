@@ -166,6 +166,7 @@ export default function SmsConsentForm() {
                     Keystone Logistics
                   </option>
                   <option value="strategic_ai">Strategic AI Partners</option>
+                  <option value="rio_nails">Rio Nails LLC</option>
                 </select>
               </div>
             </div>
