@@ -3,7 +3,13 @@
 import { useState } from "react";
 import Link from "next/link";
 
-export default function SmsConsentForm() {
+type Business = { id: string; name: string; slug: string | null };
+
+export default function SmsConsentForm({
+  businesses,
+}: {
+  businesses: Business[];
+}) {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
@@ -161,12 +167,11 @@ export default function SmsConsentForm() {
                   <option disabled value="">
                     Choose a business
                   </option>
-                  <option value="studio_alpha">Studio Alpha Operations</option>
-                  <option value="keystone_logistics">
-                    Keystone Logistics
-                  </option>
-                  <option value="strategic_ai">Strategic AI Partners</option>
-                  <option value="rio_nails">Rio Nails LLC</option>
+                  {businesses.map((b) => (
+                    <option key={b.id} value={b.slug ?? b.id}>
+                      {b.name}
+                    </option>
+                  ))}
                 </select>
               </div>
             </div>
